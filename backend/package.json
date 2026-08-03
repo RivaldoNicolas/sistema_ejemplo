@@ -1,0 +1,20 @@
+{
+  "name": "sistema-ejemplo-backend",
+  "version": "1.0.0",
+  "description": "Backend con Express y Prisma",
+  "main": "server.js",
+  "packageManager": "pnpm@10.28.2",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js",
+    "prisma:generate": "prisma generate"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.1.0",
+    "express": "^4.21.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0",
+    "prisma": "^6.1.0"
+  }
+}
